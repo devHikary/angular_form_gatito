@@ -3,35 +3,41 @@
 <form class="form mt-4">
   <div class="form-group">
     <input
-      placeholder="e-mail"
-      class="form-control"
-      formControlName="email"
+      placeholder="E-mail"
+      class="form-control mt-3"
+
     />
   </div>
   <div class="form-group">
     <input
       placeholder="Nome Completo"
-      class="form-control"
-      formControlName="fullName"
+      class="form-control mt-3"
+
     />
   </div>
   <div class="form-group">
     <input
       placeholder="Usuário"
-      class="form-control"
-      formControlName="userName"
+      class="form-control mt-3"
+
     />
   </div>
   <div class="form-group">
     <input
       type="password"
       placeholder="Senha"
-      class="form-control"
-      formControlName="password"
+      class="form-control mt-3"
+
     />
   </div>
 
-  <button class="btn btn-primary btn-block">
+  <button class="btn btn-primary btn-block mt-3">
     Cadastro
   </button>
 </form>
+
+<p>Já um usuário?
+  <a [routerLink]="['']">
+    Faça Login
+  </a>
+</p>
